@@ -50,7 +50,7 @@ export default function Game(props) {
   return (
     <Main>
       <div className='bubbles'>
-        <span style={{"--i": 11}}></span>
+        <span style={{"--i": 60}}></span>
         <span style={{"--i": 12}}></span>
         <span style={{"--i": 24}}></span>
         <span style={{"--i": 10}}></span>
