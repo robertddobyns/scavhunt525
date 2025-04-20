@@ -27,4 +27,5 @@ const Main = styled('div')(({theme}) => ({
     border: '2px solid var(--green)',
     gap: theme.spacing(2),
     margin: theme.spacing(2),
+    zIndex: 10
 }))

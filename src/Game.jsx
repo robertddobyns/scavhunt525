@@ -49,7 +49,39 @@ export default function Game(props) {
 
   return (
     <Main>
-        <h1 style={{ textAlign: "center", marginTop: "20px" }}>Scavenger Hunt</h1>
+      <div className='bubbles'>
+        <span style={{"--i": 11}}></span>
+        <span style={{"--i": 12}}></span>
+        <span style={{"--i": 24}}></span>
+        <span style={{"--i": 10}}></span>
+        <span style={{"--i": 14}}></span>
+        <span style={{"--i": 20}}></span>
+        <span style={{"--i": 16}}></span>
+        <span style={{"--i": 23}}></span>
+        <span style={{"--i": 21}}></span>
+        <span style={{"--i": 17}}></span>
+        <span style={{"--i": 13}}></span>
+        <span style={{"--i": 22}}></span>
+        <span style={{"--i": 15}}></span>
+        <span style={{"--i": 26}}></span>
+        <span style={{"--i": 17}}></span>
+        <span style={{"--i": 11}}></span>
+        <span style={{"--i": 12}}></span>
+        <span style={{"--i": 24}}></span>
+        <span style={{"--i": 10}}></span>
+        <span style={{"--i": 14}}></span>
+        <span style={{"--i": 20}}></span>
+        <span style={{"--i": 16}}></span>
+        <span style={{"--i": 23}}></span>
+        <span style={{"--i": 21}}></span>
+        <span style={{"--i": 17}}></span>
+        <span style={{"--i": 13}}></span>
+        <span style={{"--i": 22}}></span>
+        <span style={{"--i": 15}}></span>
+        <span style={{"--i": 26}}></span>
+        <span style={{"--i": 17}}></span>
+      </div>
+        <h1 style={{ textAlign: "center", marginTop: "20px" , zIndex: 5}}>Scavenger Hunt</h1>
         {list && list.map((item, index) => {
             if(numChecked >= index) {
                 return (
@@ -85,6 +117,7 @@ const Main = styled("div")(() => ({
   color: "var(--green)",
   paddingBottom: "100px",
   minHeight: "90vh",
+
 }));
 
 const Footer = styled("div")(({ theme }) => ({

@@ -37,3 +37,38 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubbles span {
+  z-index: 1;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: var(--ppink);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px var(--ppink),
+  0 0 50x var(--ppink),
+  0 0 100px var(--ppink);
+  animation: animate 15s linear infinite;
+  animation-duration: calc(120s / var(--i));
+}
+.bubbles span:nth-child(even) {
+  background: var(--pgreen);
+  box-shadow: 0 0 0 10px #ff2d75,
+  0 0 50x #ff2d75,
+  0 0 100px #ff2d75;
+}
+
+ @keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10px) scale(1);
+  }
+ }
