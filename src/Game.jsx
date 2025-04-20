@@ -129,4 +129,5 @@ const Footer = styled("div")(({ theme }) => ({
     padding: theme.spacing(2),
     backgroundColor: "var(--darkgreen)",
     color: "white",
+    zIndex: 5
 }));
