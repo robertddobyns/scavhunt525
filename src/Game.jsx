@@ -81,8 +81,9 @@ const Main = styled("div")(() => ({
   display: "flex",
   flexDirection: "column",
   height: "100%",
-  backgroundColor: "var(--pink)",
-  paddingBottom: "60px",
+  backgroundColor: "var(--porange)",
+  color: "var(--green)",
+  paddingBottom: "100px",
   minHeight: "90vh",
 }));
 

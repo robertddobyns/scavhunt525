@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: var(--green);
-  background-color: var(--lightpink);
+  background-color: var(--pyellow);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,6 +24,13 @@
   --lightpink: #eff7f6;
   --pink2: #f7d6e0;
   --darkpink: #f2b5d4;
+
+  /* Spring 3 */
+  --ppink: #ffb3ba;
+  --porange: #ffdfba;
+  --pyellow: #fffbba;
+  --pgreen: #baffc9;
+  --pblue: #bae1ff;
 }
 
 body {
