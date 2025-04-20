@@ -1,0 +1,147 @@
+[
+  {
+    "group": 1,
+    "code": "A",
+    "items": [
+      {
+        "id": 1,
+        "description": "Everyone's feet in a circle",
+        "code": "A"
+      },
+      {
+        "id": 2,
+        "description": "Everyone's shadow",
+        "code": "2"
+      },
+      {
+        "id": 3,
+        "description": "Everyone posing under a tree",
+        "code": "C"
+      },
+      {
+        "id": 4,
+        "description": "Everyone posing with something that begins with 'C'",
+        "code": "D"
+      },
+      {
+        "id": 5,
+        "description": "Everyone participating in a piggyback ride",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "group": 2,
+    "code": "W",
+    "items": [
+      {
+        "id": 6,
+        "description": "Everyone doing a model pose",
+        "code": "F"
+      },
+      {
+        "id": 7,
+        "description": "Everyone looking super scared",
+        "code": "4"
+      },
+      {
+        "id": 8,
+        "description": "Everyone looking really mad",
+        "code": "H"
+      },
+      {
+        "id": 9,
+        "description": "Everyone playing Air Guitar",
+        "code": "5"
+      },
+      {
+        "id": 10,
+        "description": "Everyone making a duck face with Lori Snyder",
+        "code": "J"
+      }
+    ]
+  },
+  {
+    "group": 3,
+    "code": "3",
+    "items": [
+      {
+        "id": 11,
+        "description": "Everyone giving thumbs ups with Nathan Coberly",
+        "code": "K"
+      },
+      {
+        "id": 12,
+        "description": "Everyone posing with someone from Housekeeping",
+        "code": "6"
+      },
+      {
+        "id": 13,
+        "description": "Everyone looking up at the sky",
+        "code": "M"
+      },
+      {
+        "id": 14,
+        "description": "Everyone posing heroically with someone from Security",
+        "code": "7"
+      },
+      {
+        "id": 15,
+        "description": "Everyone squeezed into a small space",
+        "code": "O"
+      }
+    ]
+  },
+  {
+    "group": 4,
+    "code": "8",
+    "items": [
+      {
+        "id": 16,
+        "description": "Everyone in PMIC attire",
+        "code": "8"
+      },
+      {
+        "id": 17,
+        "description": "Everyone holding a toy or stuffed animal",
+        "code": "Q"
+      },
+      {
+        "id": 18,
+        "description": "Everyone standing together with a goose in the picture",
+        "code": "9"
+      },
+      {
+        "id": 19,
+        "description": "Everyone doing the Beetles walk across a crosswalk",
+        "code": "S"
+      },
+      {
+        "id": 20,
+        "description": "Everyone on WebEx in a meeting",
+        "code": "T"
+      }
+    ]
+  },
+  {
+    "group": 5,
+    "code": "T",
+    "items": [
+      {
+        "id": 21,
+        "description": "Everyone posing in a line dance with Jon Garrett",
+        "code": "U"
+      },
+      {
+        "id": 22,
+        "description": "Everyone posing as YMCA characters",
+        "code": "V"
+      },
+      {
+        "id": 23,
+        "description": "Everyone recreate your favoirite meme",
+        "code": "W"
+      }
+    ]
+  }
+]
