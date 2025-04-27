@@ -23,9 +23,9 @@ export default function GameItem(props) {
 
 const Main = styled('div')(({theme}) => ({
     display: 'flex',
+    textAlign: 'left',
     backgroundColor: 'white',
     border: '2px solid var(--green)',
-    gap: theme.spacing(2),
     margin: theme.spacing(2),
     zIndex: 2
 }))

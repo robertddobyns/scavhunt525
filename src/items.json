@@ -141,6 +141,11 @@
         "id": 23,
         "description": "Everyone recreate your favoirite meme",
         "code": "W"
+      },
+      {
+        "id": 24,
+        "description": "Someone on your team playing a musical instrument",
+        "code": "W"
       }
     ]
   }

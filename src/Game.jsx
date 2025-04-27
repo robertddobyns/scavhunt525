@@ -9,16 +9,16 @@ export default function Game(props) {
 
   const [list, setList] = useState([]);
   const [code, setCode] = useState("");
-  const [numChecked, setNumChecked] = useState(0);
+  const [numChecked, setNumChecked] = useState(1000);
 
   function handleCheckboxChange(isChecked) {
-    console.log(isChecked);
-    if (isChecked) {
-      setNumChecked(numChecked + 1);
-    } else {
-      setNumChecked(numChecked - 1);
-    }
-    console.log(numChecked);
+    // console.log(isChecked);
+    // if (isChecked) {
+    //   setNumChecked(numChecked + 1);
+    // } else {
+    //   setNumChecked(numChecked - 1);
+    // }
+    // console.log(numChecked);
   }
 
   useEffect(() => {
@@ -71,6 +71,7 @@ export default function Game(props) {
         <span style={{"--i": 10}}></span>
       </div>
         <h1 style={{ textAlign: "center", marginTop: "20px" , zIndex: 5}}>Scavenger Hunt</h1>
+        <h2 style={{color: 'var(--darkgreen)'}}>Get a picture with:</h2>
         {list && list.map((item, index) => {
             if(numChecked >= index) {
                 return (
