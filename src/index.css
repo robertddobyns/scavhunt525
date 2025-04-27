@@ -54,7 +54,7 @@ body {
   border-radius: 50%;
   box-shadow: 0 5px 5px 10px var(--ppink);
   animation: animate 15s linear infinite;
-  animation-duration: calc(360s / var(--i));
+  animation-duration: calc(240s / var(--i));
 }
 .bubbles span:nth-child(even) {
   background: var(--pgreen);
@@ -63,7 +63,7 @@ body {
 
  @keyframes animate {
   0% {
-    transform: translateY(400vh) scale(0);
+    transform: translateY(300vh) scale(0);
   }
   100% {
     transform: translateY(-10px) scale(1);

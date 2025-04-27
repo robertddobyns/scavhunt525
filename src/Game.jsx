@@ -50,7 +50,7 @@ export default function Game(props) {
   return (
     <Main>
       <div className='bubbles'>
-        <span style={{"--i": 60}}></span>
+        <span style={{"--i": 30}}></span>
         <span style={{"--i": 12}}></span>
         <span style={{"--i": 24}}></span>
         <span style={{"--i": 10}}></span>
@@ -106,7 +106,7 @@ const Main = styled("div")(() => ({
   backgroundColor: "var(--porange)",
   color: "var(--green)",
   paddingBottom: "100px",
-  minHeight: "370vh",
+  minHeight: "300vh",
 
 }));
 
