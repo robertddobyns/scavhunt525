@@ -35,7 +35,7 @@ function App() {
         <TitleContainer>
           <h1>Scavenger Hunt</h1>
           <h2>
-            Spring 2025!
+            Summer 2025!
           </h2>
         </TitleContainer>
         <StyledButtonContainer>
